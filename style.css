@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+
+
+
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #343f52;
+}
+
+
+.social-media-section li {
+    list-style: none;
+}
+
+.social-media-section i {
+    font-size: 1.4rem;
+}
+
+
+.social-media-section {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem 1rem !important;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.main {
+    position: relative;
+
+}
+
+.bg-gradient-blend {
+    /* width: 100%;
+    height: 100vh; */
+    background: linear-gradient(160deg, #ffb7b7 9%, #727272 100%), radial-gradient(100% 100% at 30% 10%, #ffd1d1 0, #260000 100%), linear-gradient(180deg, #0ff 0, #fff 100%), radial-gradient(100% 100% at 70% 0, red 0, #00ffe0 100%), linear-gradient(280deg, #dbff00 0, #30f 100%);
+    background-blend-mode: screen, overlay, color-burn, color-dodge, normal;
+
+}
+
+.custom-shape-divider-bottom-1728105124 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1728105124 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 178px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1728105124 .shape-fill {
+    fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1728105124 svg {
+        width: calc(100% + 1.3px);
+        height: 66px;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+
+}
+
+
+/* .navbar-toggler */
+
+.navbar-toggler:focus,
+.btn-cclose:focus {
+    box-shadow: none;
+}
+
+.offcanvas-header {
+    padding-right: 2rem;
+}
+
+.btn-cclose {
+    background: #31333a;
+    color: white;
+    border: none;
+    /* padding: 1rem; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.btn-cclose i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+.cus span {
+    /* font-size: 2.9rem; */
+    font-family: "IBM Plex Serif", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #343F52;
+
+}
+
+
+.custom {
+    padding-top: 2.5rem;
+}
+
+.new {
+    position: absolute;
+    right: 48px;
+}
+
+.offcanvas-start {
+    width: 40% !important;
+    background-color: #1E2228 !important;
+}
+
+#imgo {
+    margin-top: 8%;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./assets/girl.jpg);
+    mask-image: url(./assets/hex.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: center;
+    mask-size: contain;
+
+}
+
+#imgoo {
+    margin-top: 8%;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./assets/girl.jpg);
+    mask-image: url(./assets/hex.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: center;
+    mask-size: contain;
+
+}
+
+em {
+    font-size: 3.5rem;
+    font-family: "IBM Plex Serif", serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #343F52;
+
+}
+
+.text {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #343F52;
+    line-height: 1.15;
+
+
+}
+
+
+.paragraph {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #60697B;
+    word-spacing: normal !important;
+
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.fill-primary {
+    fill: #747ED1;
+}
+
+.fill-secondary {
+    fill: #8CE0F1;
+}
+
+
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    z-index: 1;
+
+}
+
+.bottomicon svg {
+    width: 25px !important;
+    margin-inline: 2px;
+
+}
+
+/******************** Mediaquary******************** */
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        color: #fff;
+
+
+    }
+
+    #imgoo {
+        width: 450px;
+        height: 450px;
+
+
+    }
+
+    .bg-gradient-blend {
+        width: 100;
+    }
+
+    .text {
+        font-size: 2rem;
+
+
+    }
+
+    em {
+        font-size: 2rem;
+    }
+
+    #imgo {
+        width: 270px;
+
+
+    }
+
+
+
+    .social-media-section i {
+        color: #fff;
+    }
+
+    .social-dark i {
+        color: #343f52 !important;
+    }
+
+    .nav-link {
+
+        padding: .4rem .5rem !important;
+    }
+
+    .offcanvas-header .navbar-brand h3 {
+        padding-left: 5px;
+
+    }
+
+    .respo {
+        margin-top: 8%;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .offcanvas-start {
+        width: 100% !important;
+        background-color: #1E2228 !important;
+    }
+}
+
+
+/**************************** Tablet ****************************/
+
+@media (min-width:768px) and (max-width:1023px) {
+    .offcanvas-start {
+        width: 50% !important;
+        background-color: #1E2228 !important;
+    }
+}
+
+/**************************** Laptop ****************************/
+
+@media (min-width:1024px) and (max-width:1199px) {}
